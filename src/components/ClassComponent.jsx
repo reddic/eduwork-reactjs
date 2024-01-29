@@ -28,7 +28,7 @@ class ClassComponent extends React.Component {
     render(){
         return (
             <div>
-                <marquee direction = "up"><h1>Saya Sedang Belajar Mern di Eduwork</h1></marquee>
+                
                 <h1>This Components created by Class Component</h1>
                 <h2>Hello {this.props.nama}!!</h2>
                 <button onClick={this.handleMinus}>-</button>
