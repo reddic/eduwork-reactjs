@@ -1,5 +1,6 @@
 import React from "react";
 
+
 class ClassComponent extends React.Component {
 
     //state bisa di luar constructor jika menggunakan arrow function
@@ -27,7 +28,7 @@ class ClassComponent extends React.Component {
 
     render(){
         return (
-            <div>
+        <div>
                 
                 <h1>This Components created by Class Component</h1>
                 <h2>Hello {this.props.nama}!!</h2>
@@ -35,7 +36,8 @@ class ClassComponent extends React.Component {
                 <span>{' '}{this.state.value}{' '}</span>
                 <button onClick={this.handlePlus}>+</button>
                 
-            </div>
+        </div>
+            
         )
     }
 }
