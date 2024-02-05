@@ -1,9 +1,9 @@
-import Komponen from "./components"
+import Rendering from "./Rendering";
 
 function App() {
   return (
     <div className="App">
-      <Komponen ></Komponen>
+      <Rendering/>
     </div>
   );
 }
