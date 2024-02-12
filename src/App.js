@@ -1,9 +1,9 @@
-import Rendering from "./Rendering";
+import Form from "./Form";
 
 function App() {
   return (
     <div className="App">
-      <Rendering/>
+      <Form/>
     </div>
   );
 }
