@@ -1,6 +1,6 @@
 import React from "react";
 
-import Validation from "./Pembahasan/Validation";
+import RegistrasiValidation from "./Pembahasan/registrasi";
 
 
 export default class Form extends React.Component {
@@ -8,7 +8,7 @@ export default class Form extends React.Component {
     render(){
         return(
             <div>
-               <Validation/>
+               <RegistrasiValidation/>
             </div>
         )
     }
